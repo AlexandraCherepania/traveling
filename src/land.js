@@ -25,7 +25,7 @@ const landArr = {
         'en': 'Contacts',
     },
     'title': {
-        'ua': 'Ніколи не зупиняйся досліджувати світ',
+        'ua': 'Ніколи не зупиняйся досліджувати світ...',
         'en': 'NEVER STOP EXPLORIND THE WORLD'
     },
 

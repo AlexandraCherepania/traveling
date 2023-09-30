@@ -1,0 +1,2 @@
+!function(){var n=document.querySelector("select"),o=["en","ua"];n.addEventListener("change",(function(){var o=n.value;location.href=window.location.pathname+"#"+o,location.reload()})),function(){var a=window.location.hash;for(var e in a=a.substring(1),console.log(a),o.includes(a)||(location.href=window.location.pathname+"#ua",location.reload()),n.value=a,landArr){var r=document.querySelector(".lng-"+e);r&&(r.innerHTML=landArr[e][a])}}()}();
+//# sourceMappingURL=index.6196855a.js.map

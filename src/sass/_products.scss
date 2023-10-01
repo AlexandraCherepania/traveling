@@ -403,7 +403,11 @@
 // .section__products {
 //   background-color: var(--background-color-white);
 // }
+.constructor_page {
+  margin-bottom: 50px;
+  margin-top: 50px;
 
+}
 .section__products {
   width: auto;
 
@@ -411,6 +415,8 @@
       width: auto;
       margin-bottom: auto;
       margin-top: auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
     }
   
     @media screen and (min-width: 1200px) {

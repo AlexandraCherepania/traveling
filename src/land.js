@@ -42,6 +42,11 @@ const landArr = {
         'en': 'Our contacts',
     },
 
+      'ourlocation': {
+        'ua': 'Наша адреса',
+        'en': 'Our Locations',
+    },
+
     'btn': {
         'ua': 'Замовити',
         'en': 'Buy now',
@@ -104,7 +109,7 @@ const landArr = {
 
 
     'search': {
-        'ua': 'Пошук туру',
+        'ua': 'Мінімальні ціни',
         'en': 'Hot tours',
     },
 

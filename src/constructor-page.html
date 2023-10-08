@@ -1,0 +1,194 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конструктор</title>
+    <!--========== Fonts ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
+        rel="stylesheet" />
+    
+    
+    <!--========== Normalize styles ========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- ======== Animate css ========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <!-- ==========Swiper ========== -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    
+    <!--========== Main styles ========== -->
+    <link rel="stylesheet" href="./sass/index.scss" />
+    
+    <script type="module" src="./index.js"></script>
+    <script src="./land.js"></script>
+    <script src="./modal.js"></script>
+    </head>
+</head>
+<body>
+
+    <header class="page-header container" id="header">
+    
+        <a class="logo__link link-decor" href="#">
+            <img class='logo_style' src="./images/traveling/logo.png" alt="traveling" width="200" height="180" />
+        </a>
+    
+    
+    
+        <!-- navigation -->
+    
+    
+    
+        <nav class="site-nav">
+            <ul class="site-nav__list list">
+                <li class="site-nav__item current">
+                    <a class="nav__link lng-home" href="./index.html">Головна</a>
+                </li>
+                <li class="site-nav__item">
+                    <a class="nav__link lng-hot" target="_blank" href="./hot.html">Гарячі тури</a>
+                </li>
+    
+                <li class="site-nav__item">
+    
+    
+                    <a href="#advantages" class="nav__link lng-reserv">Як забронювати?</a>
+    
+                </li>
+                <li class="site-nav__item">
+                    <a class="mobile__link lng-product" href="./constructor-page.html">Конструктор</a>
+                </li>
+                <li class="site-nav__item">
+                    <a class="nav__link lng-contact" href="#contacts">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+    
+    
+        <select class="change-land land-style">
+            <option value="ua">UA</option>
+            <option value="en" selected>EN</option>
+        </select>
+    
+    
+        <button class="lng-btn button__main button--visible open-hero-modal lng-btn" type="button" id="open_hero-modal"
+            data-hero-open>
+            Купити
+            <svg class="button__icon">
+                <use class="button__arrow" href="./images/icons.svg#icon-arrow-btn" width="7" height="10"></use>
+            </svg>
+        </button>
+    
+    </header>
+    
+    
+    
+    <div class="hero-modal" id="hero-modal" data-hero-modal>
+        <div class="hero-modal__container">
+            <div class="hero-modal__body" id="hero-modal__body">
+                <p class="hero-modal__title">Відправити запит</p>
+    
+                <form class="form-header">
+                    <ul class="list checkbox-flex">
+    
+                    </ul>
+                    <input class="hero-modal__input" type="text" placeholder="Name" required />
+                    <input class="hero-modal__input" type="tel" placeholder="Tel" required />
+                    <input class="hero-modal__input" type="email" placeholder="E-mail" />
+                    <input class="hero-modal__input--el" type="text" placeholder="Введіть параметри туру" />
+    
+                    <div class="hero-modal__buttons">
+                        <button class="button__main button--inverse hero-modal__button" type="submit">
+                            Відправити
+                        </button>
+                        <button class="button__main hero-modal__button" type="submit" data-hero-close>
+                            Закрити
+                        </button>
+                    </div>
+    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="constructor-fon">
+    
+    </div>
+    
+    <!-- menu button -->
+    <button class="menu__button" type="button" data-menu-button aria-expanded="false">
+        <svg class="menu__pic" aria-label="Переключатель мобільного меню" width="44" height="44">
+            <use class="menu__icon menu__burger" href="./images/symbol-defs2.svg#icon-menu" width="40" height="24"></use>
+            <use class="menu__icon menu__close" href="./images/symbol-defs2.svg#icon-cross" width="16" height="16"></use>
+        </svg>
+    </button>
+    
+    <!-- mobile menu -->
+    
+    <div class="mobile-menu" data-menu>
+        <button class="button__main button--mobile lng-btn" type="button">
+            Купити
+            <svg class="button__icon">
+                <use class="button__arrow" href="./images/icons.svg#icon-arrow-btn" width="7" height="10"></use>
+            </svg>
+        </button>
+    
+        <!-- mobile bavigation -->
+    
+        <ul class="mobile-nav list">
+            <li class="mobile__item">
+                <a class="mobile__link current lng-home" href="./index.html">Головна</a>
+            </li>
+            <li class="mobile__item">
+                <a class="mobile__link lng-hot" href="./hot.html">Гарячі тури</a>
+            </li>
+            <li class="mobile__item">
+                <a href="./index.html" class="mobile__link lng-reserv">Як забронювати?
+                </a>
+    
+            </li>
+            <li class="mobile__item">
+                <a class="mobile__link lng-product" href="./constructor-page.html">Конструктор</a>
+            </li>
+            <li class="mobile__item">
+                <a class="mobile__link lng-contact" href="./index.html">Контакти</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <section class="section constructor_page second-title" id="constructor">
+        <div class="products container">
+    
+            <h2 class="constructor products__title animate__animated animate__jackInTheBox lng-constructor">
+                Конструктор турів
+            </h2>
+            <h3 class="lng-constructortitle conrt-title lng-constructorel">Створи свою найкращу подорож</h3>
+        </div>
+    
+        <div class="unit">
+            <div id="e68d1f5a-1e5d-47a9-9b1a-e63a45842540"></div>
+            <script>
+                var script = document.createElement('script');
+                script.src = '//80032.unit.travel/static/form-widget/js/proxy/base.js';
+                document.head.append(script);
+                script.onload = function () { EmbeddedFormWidget.build({ "containerId": "e68d1f5a-1e5d-47a9-9b1a-e63a45842540", "domain": "80032.unit.travel", "config": { "refmid": "161287", "products": "hotel,flight", "lang": "ua", "searchmode": "modal", "bookmode": "onsite", "form": { "view": "horizontal", "bg": "default", "tabtxtcl": "#3E3E3E", "tabunderlinecl": "#0064CE", "btnbg": "#0064CE", "btntxtcl": "#ffffff" }, "search": { "hotel": { "adl": "2" }, "flight": { "dep": "10159", "adl": "1" } } } }); };
+            </script>
+        </div>
+
+  
+    
+    
+    </section> 
+
+    <script src="./menu.js"></script>
+    <script src="./modal.js"></script>
+    <script src="./contacts-modal.js"></script>
+    <script src="./mobile-menu.js"></script>
+</body>
+</html>

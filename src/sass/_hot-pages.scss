@@ -1,0 +1,65 @@
+.search {
+    // position: absolute;
+    // z-index: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+
+    @media screen and (min-width: 768px) {
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-top: 30px;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-top: 30px;
+        }
+
+}
+.products__title {
+    padding-top: 25px;
+}
+
+.search-fon {
+    position: relative;
+        // min-width: 320px;
+        // max-width: 1280px;
+        width: 100%;
+        margin-top: 120px;
+    
+        height: 150px;
+        margin-left: auto;
+         margin-right: auto;
+    
+        overflow: hidden;
+        background-image: url('../images/traveling/photo2-1.jpg');
+        box-shadow: #5c5050;
+
+
+        @media screen and (min-width: 768px) {
+                height: 150px;
+                width: 1280px;
+                margin-top: 120px;
+                margin-bottom: 10px;
+                // margin-left: 40px;
+                background-image: url('../images/traveling/maldives-search-fone.jpg');
+        
+            }
+        
+            @media screen and (min-width: 1200px) {
+                height: 200px;
+                width: 1280;
+                margin-bottom: 30px;
+                margin-top: 100px;
+                margin-left: auto;
+                margin-right: auto;
+                background-image: url('../images/traveling/maldives-search-fone.jpg');
+}
+}
+
+.itt-toggle-block {
+    border: 2px solid #fbf9fa;
+}

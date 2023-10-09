@@ -157,16 +157,16 @@ button {
 .button__main {
   display: block;
 
-  padding-left: 25px;
-  padding-right: 25px;
-  height: 44px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 20px;
 
   border: none;
   border-radius: 22px;
   background-color: var(--dominant-color);
 
   font-weight: 700;
-  font-size: 16px;
+  font-size: 9px;
   line-height: 1.31;
 
   color: var(--grey-color);
@@ -178,6 +178,60 @@ button {
     background-color: var(--accent-color);
     color: var(--background-color-pink);
   }
+
+    
+  
+   @media screen and (min-width: 320px) {
+      margin-left: 15px;
+    }
+  
+    @media screen and (min-width: 768px) {
+       padding-left: 15px;
+        padding-right: 15px;
+        height: 34px;
+      
+        border: none;
+        border-radius: 22px;
+        background-color: var(--dominant-color);
+      
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 1.31;
+      
+        color: var(--grey-color);
+        margin-left: 15px;
+        margin-right: 65px;
+        cursor: pointer;
+
+        &:hover,
+          &:focus {
+            background-color: var(--accent-color);
+            color: var(--background-color-pink);
+          }
+    }
+  
+    @media screen and (min-width: 1200px) {
+      // margin-left: 15px;
+      // padding-left: 15px;
+      //   padding-right: 15px;
+      //   height: 34px;
+      
+        border: none;
+        border-radius: 22px;
+        background-color: var(--dominant-color);
+      
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.31;
+      
+        color: var(--grey-color);
+        cursor: pointer;
+        &:hover,
+          &:focus {
+            background-color: var(--accent-color);
+            color: var(--background-color-pink);
+          }
+    }
 }
 
 .button--inverse {

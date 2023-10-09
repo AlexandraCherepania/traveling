@@ -466,8 +466,18 @@
 }
 
 .conrt-title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
+    margin-left: 65px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 10px;
+      font-style: italic;
+      margin-top: -35px;
+
+  @media screen and (min-width: 768px){
+       font-size: 25px;
+  }
+     @media screen and (min-width: 1200px) {
+         font-size: 25px;
+     }
 
  
 

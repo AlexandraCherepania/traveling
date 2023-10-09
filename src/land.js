@@ -109,7 +109,7 @@ const landArr = {
 
 
     'search': {
-        'ua': 'Мінімальні ціни',
+        'ua': 'Гарячі тури',
         'en': 'Hot tours',
     },
 

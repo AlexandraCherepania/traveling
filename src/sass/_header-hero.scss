@@ -800,11 +800,11 @@ input.check-toggle-round-flat:checked+label:after {
     height: 100%;
 
     @media screen and (min-width: 768px) {
-        padding: 40px;
+        padding: 20px;
     }
 
     @media screen and (min-width: 1200px) {
-        padding: 40px;
+        padding: 20px;
     }
 
 }
@@ -834,17 +834,18 @@ input.check-toggle-round-flat:checked+label:after {
 
     @media screen and (min-width: 768px) {
         visibility: hidden;
-        left: 0;
-        top: 0;
+        // left: 0;
+        // top: 0;
         width: 550px;
         height: 700px;
-        margin-top: 50px;
+        // margin-top: 20px;
         margin-left: 15px;
     }
 
     @media screen and (min-width: 1200px) {
+        margin-top: -45px;
         left: 18%;
-        top: 10%;
+        // top: 10%;
         width: 750px;
         height: 100%;
     }
@@ -871,13 +872,13 @@ input.check-toggle-round-flat:checked+label:after {
     width: 250px;
     height: 500px;
     padding-left: 10px;
-    padding-top: 30px;
+    padding-top: 10px;
 
     @media screen and (min-width: 768px) {
         width: 508px;
         display: flex;
         padding-left: 30px;
-        padding-top: 80px;
+        padding-top: 40px;
        
     }
 

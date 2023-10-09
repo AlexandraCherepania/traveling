@@ -121,6 +121,11 @@ const landArr = {
     'constructorel': {
         'ua': 'Створи свою найкращу подорож',
         'en': 'Create your best trip'
+    },
+
+    'hotsearch': {
+        'ua': 'Пошук туру',
+        'en': 'Hot tour',
     }
 
 }

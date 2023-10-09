@@ -10,7 +10,7 @@
 
     top: 0;
     left: 50%;
-    width: 100%;
+    // width: 100%;
     // max-width: 1280px;
     z-index: 2;
 
@@ -25,11 +25,11 @@
         justify-content: flex-start;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 767px) and (max-width: 1200px){
         padding: 37px 16px 0 16px;
-        margin-left: 270px;
+        // margin-left: 20px;
      
-        // max-width: 1280px;
+        max-width: 1280px;
     }
 }
 
@@ -81,12 +81,12 @@
 
 .site-nav__list {
     display: flex;
-    gap: 35px;
+    gap: 25px;
 
-    margin-left: 128px;
+    margin-left: 30px;
 
     font-weight: 700;
-    font-size: 16px;
+    // font-size: 16px;
     line-height: 1.31;
 }
 

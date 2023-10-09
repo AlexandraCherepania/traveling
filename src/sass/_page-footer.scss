@@ -180,7 +180,8 @@
     }
 
     &__contact {
-        color: var(--accent-color);
+        color:#443c3e ;
+        border-radius: 1px solid 2px;
         text-decoration: none;
     }
 
@@ -208,23 +209,23 @@
     }
 }
 
-.footer-text__ice {
-    font-family: var(--dominant-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 8px;
-    line-height: 152%;
+// .footer-text__ice {
+//     font-family: var(--dominant-font);
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 8px;
+//     line-height: 152%;
 
-    color: #55b89a;
+//     color: #55b89a;
 
-    @media screen and (min-width: 768px) {
-        line-height: 186%;
-    }
+//     @media screen and (min-width: 768px) {
+//         line-height: 186%;
+//     }
 
-    @media screen and (min-width: 1200px) {
-        line-height: 186%;
-    }
-}
+//     @media screen and (min-width: 1200px) {
+//         line-height: 186%;
+//     }
+// }
 
 
 .viber-style {

@@ -436,8 +436,8 @@
   text-transform: uppercase;
 
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 50px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 
   color: #5c5050;
 
@@ -575,4 +575,32 @@
 
   
     }
+}
+
+.button-mobile {
+   margin-left: 120px;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 20px;
+    background-color: var(--dominant-color);
+    color: var(--grey-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1.31;
+    display: block;
+    cursor: pointer;
+  
+
+  @media screen and (min-width: 768px){
+      
+  }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+
 }
